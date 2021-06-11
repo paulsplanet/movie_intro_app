@@ -1,0 +1,45 @@
+
+.movies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movies .movie {
+    width: 48%;
+    background-color: white;
+    margin-bottom: 100px;
+    height: 38vh;
+    position: relative;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #A6ACAD;
+}
+
+img {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    box-shadow: 5px 5px 10px #A6ACAD;
+}
+.movie__data {
+    margin-left: 260px;
+    height: 35vh;
+    overflow: auto;
+}
+.genres {
+    list-style: none;
+    display: flex;
+    margin: 5px 0 10px 0;
+}
+.genres__genre {
+    margin-right: 10px;
+    color: #c7c6c5;
+}
+.movie__year {
+    margin-top: 5px;
+    color: #c7c6c5;
+}
+.movie__summary {
+    font-size: 14px;
+    color: #c7c6c5;
+}

@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #E3EBED;
+    background-color: #eee;
+}
+.container {
+    padding: 100px;
 }
 
 .loader {
@@ -14,14 +17,4 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 32px;
-}
-
-.movies {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.movies .movie {
-    width: 40%;
 }
