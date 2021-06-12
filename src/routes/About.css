@@ -1,0 +1,21 @@
+
+.about {
+    background-color: white !important;
+    color: darkcyan !important;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    transform: translateX(33vw);
+}
+.quote {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
+    font-style: italic;
+}
+.author {
+    margin: 20px 60px 0 0;
+    text-align: right;
+}

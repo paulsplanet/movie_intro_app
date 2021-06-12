@@ -4,9 +4,16 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+a, 
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 .movies .movie {
-    width: 48%;
+    width: 40vw;
     background-color: white;
     margin-bottom: 100px;
     height: 38vh;
@@ -15,7 +22,7 @@
     box-shadow: 10px 10px 5px #A6ACAD;
 }
 
-img {
+.movie__img {
     position: absolute;
     top: -50px;
     left: 20px;
